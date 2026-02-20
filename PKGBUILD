@@ -1,5 +1,5 @@
 pkgname=proart-meter-git
-pkgver=r1.fd4f3b6
+pkgver=r3.5b67298
 pkgrel=1
 pkgdesc='LED temperature meter controller for ASUS ProArt AIOs'
 arch=('x86_64')
