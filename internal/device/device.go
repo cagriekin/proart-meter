@@ -22,11 +22,6 @@ func Open() (*ProArtDevice, error) {
 		return nil, err
 	}
 
-	if err := usb.setConfiguration(1); err != nil {
-		usb.close()
-		return nil, err
-	}
-
 	if err := usb.claimInterface(0); err != nil {
 		usb.close()
 		return nil, err

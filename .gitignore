@@ -1,2 +1,4 @@
 /proart-meter
 *.pkg.tar.zst
+src/
+pkg/
