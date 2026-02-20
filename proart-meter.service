@@ -1,0 +1,12 @@
+[Unit]
+Description=ASUS ProArt AIO LED Temperature Meter
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/proart-meter --config /etc/proart-meter/config.yaml
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,3 @@
+sensor: "k10temp"
+poll_interval_seconds: 2
+thresholds: [40, 50, 60, 70, 80]
