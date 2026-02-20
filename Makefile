@@ -1,7 +1,7 @@
-PREFIX ?= /usr/local
+PREFIX ?= /usr
 BINDIR = $(PREFIX)/bin
 CONFDIR = /etc/proart-meter
-SYSTEMDDIR = /etc/systemd/system
+SYSTEMDDIR = /usr/lib/systemd/system
 
 .PHONY: build clean install uninstall
 

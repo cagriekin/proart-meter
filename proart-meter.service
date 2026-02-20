@@ -4,7 +4,7 @@ After=multi-user.target
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/proart-meter --config /etc/proart-meter/config.yaml
+ExecStart=/usr/bin/proart-meter --config /etc/proart-meter/config.yaml
 Restart=on-failure
 RestartSec=5
 
